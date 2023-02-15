@@ -1,11 +1,12 @@
 package pocketShortener
 
-import "github.com/gin-gonic/gin"
+import (
+	"github.com/gin-gonic/gin"
+	"pocketShortener/controllers"
+)
 
-var app *gin.Engine
+func main() {
+	app := gin.Default()
 
-func main() int {
-	app = gin.Default()
-
-	return 0
+	app.GET("/", controllers.UrlFetch)
 }

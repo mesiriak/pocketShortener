@@ -8,3 +8,5 @@ Simple implementation of shortener service on __golang__, which u can up on your
 - PostgreSQL
 - Gin WEB Framework
 - Golang 1.19
+- GORM
+- GoDotEnv
