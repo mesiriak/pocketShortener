@@ -10,3 +10,4 @@ Simple implementation of shortener service on __golang__, which u can up on your
 - Golang 1.19
 - GORM
 - GoDotEnv
+- CompileDaemon
